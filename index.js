@@ -1,22 +1,22 @@
-//Variables
+//Variables (1-4)
 let variableSinValor;
 let booleano1 = true;
 let booleano2 = true;
 const PI = 3.14;
 const TAU = 2 * PI
 
-//Booleanos
+//Booleanos (5-7)
 let booleanoAnd = booleano1 == booleano2;
 let booleanoNot = !booleano1;
 let booleanoMix0 = (booleano1 || booleano2) && (booleano1 || (!booleano1 && !booleano2));
 
-//Operadores
+//Operadores (8-9)
 let incrementarDesp = 2;
 let resultadoDesp = incrementarDesp++;
 let incrementarAntes = 2;
 let resultadoAntes = ++incrementarAntes;
 
-//Bucles
+//Bucles (10-12)
 let contarHasta10_2 = 0;
 for (contarHasta10_2; contarHasta10_2 < 10; contarHasta10_2++) {
     if (contarHasta10_2 === 10) {
@@ -41,27 +41,27 @@ for (i = 0; i < 10; i++) {
 
 //ITERACIONES - PROYECTO INDIVIDUAL
 
-//Variables
+//Variables (13-15)
 
 let variableValorNumerico = 4;
 const MiNombre = "Rafa";
 const MiNumeroFav = 1;
 
-//Booleanos
+//Booleanos (16-19)
 
 let booleanoOr = booleano1 || booleano2;
 let booleanoMix1 = (booleano1 && (TAU / 2 == PI)) || (variableValorNumerico >= MiNumeroFav);
 let seisNoEsNueve = 6 !== 9;
 let booleanoMix2 = variableValorNumerico < (MiNumeroFav * TAU);
 
-//Operadores
+//Operadores (20-23)
 
 let valorSuma = MiNumeroFav + variableValorNumerico;
 let valorResta = MiNumeroFav - variableValorNumerico;
 let valorMultiplicacion = MiNumeroFav * variableValorNumerico;
 let valorDivision = MiNumeroFav / 3;
 
-//Bucles
+//Bucles (24-26)
 
 let contarHasta10 = 0;
 while (contarHasta10 !== 10) {
